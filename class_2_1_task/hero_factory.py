@@ -7,11 +7,19 @@
  * @fileName: hero_factory.py
  * @author: 'WangLei'
 """
+
 from class_2_1_task.hero import *
 
 
 class HeroFactory(object):
-    def create_hero(self, name):
+
+    @staticmethod
+    def create_hero(name):
+        """
+        创建英雄
+        :param name: 英雄名
+        :return:
+        """
         # 英雄字典
         dict_hero = {
             'Timo': Timo,
@@ -26,9 +34,8 @@ class HeroFactory(object):
 
 
 if __name__ == "__main__":
-    hero_factory = HeroFactory()
-    hero_timo = hero_factory.create_hero('Timo')
-    hero_jinx = hero_factory.create_hero('Jinx')
+    hero_timo = HeroFactory.create_hero('Timo')
+    hero_jinx = HeroFactory.create_hero('Jinx')
     hero_timo.fight(hero_jinx.hp, hero_jinx.power)
 
 
