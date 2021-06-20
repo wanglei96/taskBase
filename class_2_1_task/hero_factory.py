@@ -20,7 +20,7 @@ class HeroFactory(object):
         # 根据英雄名获取英雄类
         hero_model = dict_hero.get(name)
         if hero_model:
-            return dict_hero.get(name)()
+            return hero_model()
         else:
             raise Exception('没有找到英雄，请先创建英雄类')
 
