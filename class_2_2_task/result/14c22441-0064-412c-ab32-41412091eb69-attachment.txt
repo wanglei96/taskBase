@@ -1,1 +1,0 @@
-[32mINFO    [0m root:conftest.py:24 计算结束
