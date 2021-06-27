@@ -1,0 +1,27 @@
+18:30:12 [INFO] [计算开始] conftest.py:22
+18:30:12 [INFO] [预期值：2, 实际值：2] test_calculator.py:32
+18:30:12 [INFO] [预期值：200, 实际值：200] test_calculator.py:32
+18:30:12 [INFO] [预期值：0.3, 实际值：0.3] test_calculator.py:32
+18:30:12 [INFO] [预期值：-0.2, 实际值：-0.2] test_calculator.py:32
+18:30:12 [INFO] [预期值：-3, 实际值：-3] test_calculator.py:32
+18:30:12 [INFO] [预期值：3, 实际值：3] test_calculator.py:32
+18:30:12 [INFO] [预期值：3.1, 实际值：3.1] test_calculator.py:32
+18:30:12 [INFO] [预期值：2.9, 实际值：2.9] test_calculator.py:32
+18:30:12 [INFO] [预期值：-3.1, 实际值：-3.1] test_calculator.py:32
+18:30:12 [INFO] [预期值：-2.9, 实际值：-2.9] test_calculator.py:32
+18:30:12 [INFO] [预期值：0, 实际值：0] test_calculator.py:32
+18:30:12 [INFO] [预期值：2, 实际值：2.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：1, 实际值：1.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：1.33, 实际值：1.33] test_calculator.py:45
+18:30:12 [INFO] [预期值：0.83, 实际值：0.83] test_calculator.py:45
+18:30:12 [INFO] [预期值：10, 实际值：10.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：5, 实际值：5.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：2, 实际值：2.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：-2, 实际值：-2.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：-2, 实际值：-2.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：0, 实际值：0.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：0, 实际值：-0.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：0, 实际值：0.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：0, 实际值：0.0] test_calculator.py:45
+18:30:12 [INFO] [预期值：0, 实际值：-0.0] test_calculator.py:45
+18:30:12 [INFO] [计算结束] conftest.py:24

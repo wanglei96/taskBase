@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_calculator.py:40 预期值：10, 实际值：10.0
