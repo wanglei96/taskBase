@@ -35,7 +35,7 @@ def test_add( a, b, expect, get_clac, logger):
 class TestCalculator:
 
     @allure.story("测试加法")
-    @pytest.mark.parametrize('a, b, expect', add_data, ids=add_ids, indirect=True)
+    @pytest.mark.parametrize('a, b, expect', add_data, ids=add_ids)
     def test_add(self, a, b, expect, get_clac, logger):
         if isinstance(a, (int, float)) and isinstance(b, (int, float)):
             # 计算结果，保留2位小数
