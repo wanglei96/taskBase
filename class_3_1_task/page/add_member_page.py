@@ -13,7 +13,6 @@ from class_3_1_task.page.base_page import BasePage
 
 
 class AddMemberPage(BasePage):
-    _page_url = 'https://work.weixin.qq.com/wework_admin/frame#contacts'
     _ele_username = (By.ID, 'username')
     _acctid = (By.ID, 'memberAdd_acctid')
     _phone = (By.ID, 'memberAdd_phone')
