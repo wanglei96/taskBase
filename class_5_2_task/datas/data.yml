@@ -1,0 +1,39 @@
+# 项目host地址
+host: 'https://httpbin.ceshiren.com'
+
+# xx模块接口数据, key值与类名一致
+ApiDemo:
+  # get接口数据
+  # key为接口名称应与方法名一致
+  get_demo:
+    # get接口url
+    url: '/get'
+    # 请求数据
+    data: null
+    # 响应类型
+    response_type: 'json'
+    # 校验值
+    assert:
+      # 校验响应码
+      code: 200
+      # body校验内容，按jmespath填写
+      body:
+        url: 'https://httpbin.ceshiren.com/get'
+        headers.Host: 'httpbin.ceshiren.com'
+  # post接口数据
+  # key为接口名称应与方法名一致
+  post_demo:
+    # post接口url
+    url: '/post'
+    # 接口数据
+    data: null
+    # 响应类型
+    response_type: 'json'
+    # 校验值
+    assert:
+      # 校验响应码
+      code: 200
+      # body校验内容，按jmespath填写
+      body:
+        url: 'https://httpbin.ceshiren.com/post'
+        headers.Host: 'httpbin.ceshiren.com'
